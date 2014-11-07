@@ -1,0 +1,121 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "40a741878f981fd5eb8bc9ec0621ad30",
+    "packages": [
+        {
+            "name": "aura/dispatcher",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/auraphp/Aura.Dispatcher.git",
+                "reference": "e4d02125a516feb65545dd1c7ff6417733cc9699"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/auraphp/Aura.Dispatcher/zipball/e4d02125a516feb65545dd1c7ff6417733cc9699",
+                "reference": "e4d02125a516feb65545dd1c7ff6417733cc9699",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "extra": {
+                "aura": {
+                    "type": "library"
+                },
+                "branch-alias": {
+                    "dev-develop-2": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Aura\\Dispatcher\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Aura.Dispatcher Contributors",
+                    "homepage": "https://github.com/auraphp/Aura.Dispatcher/contributors"
+                }
+            ],
+            "description": "Creates objects from a factory and invokes methods using named parameters; also provides a trait for invoking closures and object methods with named parameters.",
+            "homepage": "https://github.com/auraphp/Aura.Dispatcher",
+            "keywords": [
+                "controller",
+                "dispatcher",
+                "factory"
+            ],
+            "time": "2014-08-28 20:54:38"
+        },
+        {
+            "name": "aura/router",
+            "version": "2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/auraphp/Aura.Router.git",
+                "reference": "23056b104816f495f4f9f88fc6e7d325671c3bc6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/auraphp/Aura.Router/zipball/23056b104816f495f4f9f88fc6e7d325671c3bc6",
+                "reference": "23056b104816f495f4f9f88fc6e7d325671c3bc6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "aura": {
+                    "type": "library",
+                    "config": {
+                        "common": "Aura\\Router\\_Config\\Common"
+                    }
+                },
+                "branch-alias": {
+                    "dev-develop-2": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Aura\\Router\\": "src/",
+                    "Aura\\Router\\_Config\\": "config/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Aura.Router Contributors",
+                    "homepage": "https://github.com/auraphp/Aura.Router/contributors"
+                }
+            ],
+            "description": "A web router implementation; given a URI path and a copy of $_SERVER, it will extract path-info parameter values for a specific route.",
+            "homepage": "https://github.com/auraphp/Aura.Router",
+            "keywords": [
+                "route",
+                "router",
+                "routing"
+            ],
+            "time": "2014-10-22 14:14:56"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "platform": [],
+    "platform-dev": []
+}
